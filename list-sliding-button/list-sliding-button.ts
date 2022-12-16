@@ -10,9 +10,7 @@ export type ListSlidingButtonColors = 'primary' | 'secondary' | 'tertiary' | 'su
 export class ListSlidingButton {
 
   @Input('optionColor') optionColor: ListSlidingButtonColors = "primary";
-
   @Input('icon') icon: string = "";
-  @Input('label') label: string = "";
 
   constructor() { }
 }
