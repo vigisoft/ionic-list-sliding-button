@@ -8,5 +8,6 @@ $colors: ('primary','secondary','tertiary','success','warning','danger','dark','
 @each $color in $colors {
   ion-item-option[data-color="#{$color}"]::part(native) {
     background-color: var(--ion-color-#{$color});
+    color: var(--ion-color-#{$color}-contrast);
   }
 }
